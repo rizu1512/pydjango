@@ -1,0 +1,21 @@
+
+
+index.html
+<p>
+1table 
+2{% for x in myB_b %}
+3 {% endfor %}
+
+
+
+views.py
+
+1 create object
+  e.g myobject = <className>.all().value()
+2 template = loader.get_template('*.html)
+
+3 context ={
+	<'objectName'>:objectName
+}
+return HttpResponse(template.render(context,request)
+
